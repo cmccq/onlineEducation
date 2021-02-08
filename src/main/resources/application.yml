@@ -8,3 +8,11 @@ spring:
 #    端口号
 server:
   port: 8099
+jwtConfig:
+  secret:
+    520njxz1314university
+#  12*60*60*1000 = 43200000
+  expirationTime:
+    43200000
+  header:
+    MineToken
